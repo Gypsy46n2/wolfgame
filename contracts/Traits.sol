@@ -185,7 +185,6 @@ contract Traits is Ownable, ITraits {
     ));
   }
 
-  /** BASE 64 - Written by Brech Devos */
   
   string internal constant TABLE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 

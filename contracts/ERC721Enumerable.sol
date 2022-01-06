@@ -160,4 +160,3 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
         _allTokens.pop();
     }
 }
-
