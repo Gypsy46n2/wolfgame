@@ -1,0 +1,295 @@
+{
+  "contractName": "ITraits",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "tokenURI",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"tokenURI\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/silas/ftmwolf/contracts/ITraits.sol\":\"ITraits\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/silas/ftmwolf/contracts/ITraits.sol\":{\"keccak256\":\"0x755da27976c471cae14a27946684865835799c6c7cb8b411becff05207416031\",\"license\":\"MIT LICENSE\",\"urls\":[\"bzz-raw://df503ed81b9644a604b2134008ba0ca2aa682d0fd1266e249f7fa3d280bb44b4\",\"dweb:/ipfs/QmbYAMQNcutU51RVp3dwVyKuLCR5xRc64sgafUoVq9d4kM\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT LICENSE \n\npragma solidity ^0.8.0;\n\ninterface ITraits {\n  function tokenURI(uint256 tokenId) external view returns (string memory);\n}\n",
+  "sourcePath": "/home/silas/ftmwolf/contracts/ITraits.sol",
+  "ast": {
+    "absolutePath": "/home/silas/ftmwolf/contracts/ITraits.sol",
+    "exportedSymbols": {
+      "ITraits": [
+        2377
+      ]
+    },
+    "id": 2378,
+    "license": "MIT LICENSE",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2369,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "42:23:14"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2377,
+        "linearizedBaseContracts": [
+          2377
+        ],
+        "name": "ITraits",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "c87b56dd",
+            "id": 2376,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "tokenURI",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2372,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2371,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2376,
+                  "src": "107:15:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2370,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "106:17:14"
+            },
+            "returnParameters": {
+              "id": 2375,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2374,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2376,
+                  "src": "147:13:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 2373,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "147:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "146:15:14"
+            },
+            "scope": 2377,
+            "src": "89:73:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2378,
+        "src": "67:97:14"
+      }
+    ],
+    "src": "42:123:14"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/silas/ftmwolf/contracts/ITraits.sol",
+    "exportedSymbols": {
+      "ITraits": [
+        2377
+      ]
+    },
+    "id": 2378,
+    "license": "MIT LICENSE",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2369,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "42:23:14"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2377,
+        "linearizedBaseContracts": [
+          2377
+        ],
+        "name": "ITraits",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "c87b56dd",
+            "id": 2376,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "tokenURI",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2372,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2371,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2376,
+                  "src": "107:15:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2370,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:7:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "106:17:14"
+            },
+            "returnParameters": {
+              "id": 2375,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2374,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2376,
+                  "src": "147:13:14",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 2373,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "147:6:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "146:15:14"
+            },
+            "scope": 2377,
+            "src": "89:73:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2378,
+        "src": "67:97:14"
+      }
+    ],
+    "src": "42:123:14"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2022-01-06T02:56:39.752Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

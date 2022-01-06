@@ -56,6 +56,7 @@ module.exports = {
         provider: () => new HDWalletProvider(private_key, "https://rpc.testnet.fantom.network/"),
         network_id: 4002,
         gasPrice: 200000000000,
+        gas: 9000000,
     },
     ftm: {
      host: "https://rpc.testnet.fantom.network",
